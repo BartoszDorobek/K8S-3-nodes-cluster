@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: upf
+  labels:
+    app: upf
+spec:
+  containers:
+  - name: upf
+    image: nginx
+    ports:
+      - containerPort: 80

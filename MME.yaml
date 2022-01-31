@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mme
+  labels:
+    name: mme
+spec:
+  containers:
+  - name: mme
+    image: bdorobek/swus2-proj
+    ports:
+      - containerPort: 5000 
